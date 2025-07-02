@@ -4,8 +4,10 @@
  */
 
 function isPalindromeNum(x) {
-    // Handle for negatives and anything that ends in 0
-    if (x < 0 || x % 10 == 0 && x != 0) return false;
+    // Handle for negatives
+    if (x < 0) return false;
+    // Handle for anything that ends in 0
+    if (x % 10 == 0 && x != 0) return false;
 
     let reversed = 0;
     while (x > reversed) {
@@ -17,4 +19,4 @@ function isPalindromeNum(x) {
     return x == reversed || x == Math.floor(reversed / 10);
 };
 
-module.exports = { isPalindromeNum }
+module.exports = { isPalindromeNum };
