@@ -1,0 +1,9 @@
+node_modules
+
+/.cache
+/build
+/public/build
+.env
+.DS_Store
+app/.DS_Store
+app/components/.DS_Store
