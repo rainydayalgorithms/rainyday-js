@@ -13,7 +13,7 @@ function isPalindromeString(s) {
 
     while (left < right) {
         if (mystring.charAt(left) != mystring.charAt(right)) {
-            return false
+            return false;
         }
         else {
             left++;

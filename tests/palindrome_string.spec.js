@@ -6,7 +6,7 @@ const { isPalindromeString } =  require('../solutions/palindrome_string');
   > Base negative case: Invalid palindrome
   > Special characters: Ensure special characters and whitespace is properly handled
   > capital/lowercase: Ensure case does not matter
-  > empty string
+  > empty string should return true
 */
 
 describe('Palindrome String', () => {
